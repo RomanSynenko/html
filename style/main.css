@@ -1,0 +1,105 @@
+html{
+    box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+*{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin: 0px;
+    font-size: 14px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+
+.menu {
+    width: 900px;
+    text-transform: uppercase;
+    display: inline-block;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    padding-left: 160px;
+}
+.menu-item {
+    display: inline-block;
+    margin-right: 120px;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+.menu-link {
+    display: inline;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #5bbdf6;
+}
+/*main*/
+.section {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.fotoinfo{
+    margin-top: 32px;
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+.riddlesblock{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.section {
+    font-size: 0px;
+    width: 900px;
+}
+.block {
+    display: inline-block;
+    height: auto;
+    margin: 0 auto;
+    width: 420px;
+    margin-bottom: 142px;
+    margin-right: 60px;
+}
+.block:nth-child(2n) {
+    margin-right: 0;
+}
+.artical-text {
+    line-height: 150%;
+    margin-top: 35px;
+}
+/*button*/
+button {
+    display: inline;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: none;
+    height: 64px;
+    width: 160px;
+    border: 1px solid #000;
+}
+.lifestyleb-buttom {
+    font-size: 20px;
+    margin: 0px 0px 70px 356px;
+}
+.lifestyleb-buttom:hover,
+.lifestyleb-buttom:focus {
+    color: #5bbdf6;
+    cursor: pointer;
+}
